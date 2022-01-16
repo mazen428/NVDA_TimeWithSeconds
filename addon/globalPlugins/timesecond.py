@@ -6,13 +6,17 @@ import globalPluginHandler
 
 
 class GlobalPlugin(globalPluginHandler.GlobalPlugin):
+
     @scriptHandler.script(
+    # This is based on the NVDA dateTime script, just changed to allow getting the seconds as well.
         description=_(
+            # No need to translate this as it is the same in NVDA.
             "If pressed once, reports the current time. If pressed twice, reports the current date"
         ),
         category=SCRCAT_SYSTEM,
         gesture="kb:NVDA+f12",
     )
+
     def script_dateTime(self, gesture):
         if scriptHandler.getLastScriptRepeatCount() == 0:
             text = winKernel.GetTimeFormatEx(

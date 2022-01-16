@@ -20,26 +20,25 @@ addon_info = {
     # Add-on summary, usually the user visible name of the addon.
     # Translators: Summary for this add-on
     # to be shown on installation and add-on information found in Add-ons Manager.
-    "addon_summary": _(
-        "announce seconds along with the time when pressing nvda + f 12"
+    "addon_summary": _("Report the time with seconds"
     ),
     # Add-on description
     # Translators: Long description to be shown for this add-on on add-on information from add-ons manager
     "addon_description": _(
-        "Nvda will speak the hours, minutes and seconds when Nvda + F 12 is pressed."
+        "NVDA will report the seconds when NVDA + F 12 is pressed."
     ),
     # version
-    "addon_version": "1.0",
+    "addon_version": "1.0.1",
     # Author(s)
-    "addon_author": "Mazen <mzanf4@gmail.com>",
+    "addon_author": "mazen428",
     # URL for the add-on documentation support
-    "addon_url": None,
+    "addon_url": "https://github.com/mazen428/NVDA_TimeWithSeconds",
     # Documentation file name
     "addon_docFileName": None,
     # Minimum NVDA version supported (e.g. "2018.3.0", minor version is optional)
     "addon_minimumNVDAVersion": 2019.3,
     # Last NVDA version supported/tested (e.g. "2018.4.0", ideally more recent than minimum version)
-    "addon_lastTestedNVDAVersion": 2021.1,
+    "addon_lastTestedNVDAVersion": "2021.3.1",
     # Add-on update channel (default is None, denoting stable releases,
     # and for development releases, use "dev".)
     # Do not change unless you know what you are doing!
